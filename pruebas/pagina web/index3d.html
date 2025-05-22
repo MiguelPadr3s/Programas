@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple Three.js App</title>
+    <link rel="stylesheet"/>
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+        background-color: black;
+    }
+
+    header {
+        margin-top: 3em;
+        text-align: center;
+        color: white;
+    }
+
+    header h1 {
+        font-size: 2em;
+        font-weight: 900;
+    }
+
+    #container3D canvas {
+        width: 100vw !important;
+        height: 100vw !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+</style>
+<body>
+    <header>
+        <h1>A simple Three.js App</h1>
+    </header>
+
+    <main>
+        <div id="container3D"></div>
+    </main>
+    
+    <script type="module">
+        import * as THREE from "https://cdn.skypack.dev/three@0.129.0/build/three.module.js";
+        import { OrbitControls } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/controls/OrbitControls.js";
+        import { GLTFLoader } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/controls/GLTFLoader.js";
+
+
+    </script>
+</body>
+</html>

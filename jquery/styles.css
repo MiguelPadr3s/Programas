@@ -1,0 +1,13 @@
+.big-title {
+    font-size: 10rem;
+    color: #357795;
+    font-family: cursive;
+}
+
+.margin-50{
+    margin:50px;
+}
+
+.pressed {
+    color: blue;
+}
